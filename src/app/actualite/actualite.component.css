@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cell {
+    margin: auto;
+    width: 50%;
+    height: 330px;
+    border: 3px solid black;
+    padding: 10px;
+    background-image: url('../../assets/img/4.JPG'); /* Chemin vers votre image */
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2%;
+}
+
+.choix {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.temp {
+    font-size: 10vw;
+    color: #fff;
+    text-shadow: 4px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-family: 'Common Pixel', sans-serif;
+    margin: auto;
+    width: 50%;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+.wthdt{
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.datatodisplay{
+    padding: 15px;
+    font-size: 2vw;
+}
+
+.img{
+    width: 3vw;
+}

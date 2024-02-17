@@ -1,0 +1,26 @@
+<br>
+<select class="choix" name="choix">
+    <option value="option1">{{ weatherPlace }}</option>
+</select>
+<p></p>
+<div class="cell">
+    <div class="flex-child wthdt">
+        <div class="datatodisplay">{{dateTimeNow}}</div>
+        <div class="datatodisplay">
+          <img class = "img" src="../../assets/img/pression.JPG"/>
+          {{weatherPress}}
+        </div>
+        <div class="datatodisplay">
+          <img class = "img" src="../../assets/img/humidity.JPG"/>
+          {{weatherHumi}}
+        </div>
+        <div class="datatodisplay">
+          <img class = "img" src="../../assets/img/wind.png"/>
+          {{weatherVent}} Km/h -
+          {{weatherDirVentStr}}
+        </div>
+      </div>
+      <div class="flex-child temp">
+        {{ weatherTemp }}
+      </div>
+</div>
